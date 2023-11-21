@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(199, 170, 8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(199, 170, 8);
+    color: black;
+}
+
+
+.centrar{
+    text-align: center;
+}
+.centrar img{
+    width: 140px;
+    border-radius: 50%;
+}
+
+
+h1, h2{
+    text-align: center;
+}
+
+
+nav{
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+
+.menu{
+    background-color: black;
+    list-style: none;
+    margin: 20px auto;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 20px;
+    margin: 20px;
+    color: rgb(199, 170, 8);
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: black;
+    background-color: rgb(199, 170, 8);
+    border-radius: 50%;
+}
+
+footer{
+    background: black;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.achicar{
+    width: 400px;
+}
+.achicar2{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1023px) {
+
+}
