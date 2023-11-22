@@ -78,7 +78,14 @@ footer {
 
 }
 
+.formulario {
+    width: 500px;
+    margin: 20px auto;
+    border: solid rgb(199, 170, 8) 4px;
+    padding: 1rem;
+    color: white;
+}
 
-
-
-@media (max-width:1023px) {}
+.form2 {
+    color: rgb(199, 170, 8);
+}
