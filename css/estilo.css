@@ -5,18 +5,35 @@
 }
 
 body {
-    background-color: rgb(199, 170, 8);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(199, 170, 8, 1) 100%);
 }
 
 header {
-    background-color: rgb(199, 170, 8);
-    color: black;
+    color: #c7aa08;
+    background-color: rgb(31, 31, 31);
 }
 
 h5 {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+.navCustom {
+    background-color: rgb(31, 31, 31);
+    color: #c7aa08;
+}
+
+.navCustom:hover {
+    color: black;
+}
+
+.textoInfo {
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
 }
 
 .centrarLogo {
@@ -32,9 +49,8 @@ h5 {
     text-align: center;
 }
 
-
 footer {
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     background-position: center;
     background-size: cover;
     min-height: 30vh;
@@ -44,9 +60,9 @@ footer {
 .redes {
     width: 35px;
     height: 35px;
-    border: 1px solid black;
+    border: 1px solid rgb(31, 31, 31);
     border-radius: 25px;
-    background-color: #902727;
+    background-color: #c7aa08;
     background-position: center;
     background-size: contain;
 }
@@ -58,7 +74,7 @@ footer {
 }
 
 .redes-img:hover {
-    background-color: rgba(255, 255, 255, 0.46);
+    background-color: rgb(199, 170, 8);
 
 }
 
