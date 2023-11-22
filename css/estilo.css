@@ -13,11 +13,7 @@ header {
     color: black;
 }
 
-footer {
-    background: black;
-}
-
-h4 {
+h5 {
     text-align: center;
     color: white;
     padding: 10px;
@@ -36,32 +32,35 @@ h4 {
     text-align: center;
 }
 
-.menu {
+
+footer {
     background-color: black;
-    list-style: none;
-    margin: 20px auto;
-    text-align: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    border-top: 1px solid #000;
 }
 
-.menu li {
-    display: inline-block;
+.redes {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #902727;
+    background-position: center;
+    background-size: contain;
 }
 
-.menu li a {
-    padding: 20px;
-    margin: 20px;
-    color: rgb(199, 170, 8);
-    text-decoration: none;
-    display: inline-block;
+.redes-img {
+    width: 50px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
 }
 
-.menu li a:hover {
-    color: black;
-    background-color: rgb(199, 170, 8);
-    border-radius: 50%;
+.redes-img:hover {
+    background-color: rgba(255, 255, 255, 0.46);
+
 }
-
-
 
 
 
