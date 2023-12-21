@@ -1,6 +1,8 @@
+@import "variables";
 @import "contacto";
 @import "nosotros";
 @import "productos";
+
 
 * {
     padding: 0;
@@ -9,29 +11,35 @@
 }
 
 body {
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(199, 170, 8, 1) 100%);
+    background: $dorado;
+    background: linear-gradient(to top, #2c2c2c, #b3961f, #2c2c2c);
 }
 
 header {
-    color: #c7aa08;
-    background-color: rgb(31, 31, 31);
+    color: white;
+    background-color: $dorado;
+    background: linear-gradient(to top, #2c2c2c, #b3961f, #2c2c2c);
 
     .centrarLogo {
         text-align: center;
 
         img {
-            width: 140px;
+            width: 200px;
             border-radius: 50%;
+            padding: 10px;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
         }
     }
 
     .navCustom {
-        background-color: rgb(31, 31, 31);
-        color: #c7aa08;
+        background-color: $negro;
+        color: white;
 
         &:hover {
-            color: black;
+            color: $dorado;
         }
     }
 }
@@ -39,7 +47,7 @@ header {
 
 main {
     .textoInfo {
-        color: white;
+        color: $negro;
         padding: 1rem;
         margin: 1rem;
         text-align: center;
@@ -47,11 +55,11 @@ main {
 }
 
 footer {
-    background-color: rgb(31, 31, 31);
+    background-color: $negro;
     background-position: center;
     background-size: cover;
     min-height: 30vh;
-    border-top: 1px solid #000;
+    border-top: 1px solid $negro;
 
     div {
         h5 {
@@ -67,9 +75,9 @@ footer {
             .redes {
                 width: 35px;
                 height: 35px;
-                border: 1px solid rgb(31, 31, 31);
+                border: 1px solid $negro;
                 border-radius: 25px;
-                background-color: #c7aa08;
+                background-color: $dorado;
                 background-position: center;
                 background-size: contain;
             }
@@ -77,10 +85,11 @@ footer {
             .redes-img {
                 width: 50px;
                 height: auto;
-                background-color: rgb(255, 255, 255);
+                background-color: white;
 
                 &:hover {
-                    background-color: rgb(199, 170, 8);
+                    background-color: $dorado;
+                    transform: scale(1.5, 1.5);
                 }
             }
 
