@@ -1,90 +1,89 @@
+main .formulario {
+  width: 500px;
+  margin: 20px auto;
+  padding: 1rem;
+  color: white;
+}
+main .formulario form div .form2 {
+  color: rgb(199, 170, 8);
+}
+
+main .centrarNosotros {
+  text-align: center;
+  padding: 20px;
+}
+
+main section div h5 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(199, 170, 8, 1) 100%);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(199, 170, 8) 100%);
 }
 
 header {
-    color: #c7aa08;
-    background-color: rgb(31, 31, 31);
+  color: #c7aa08;
+  background-color: rgb(31, 31, 31);
+}
+header .centrarLogo {
+  text-align: center;
+}
+header .centrarLogo img {
+  width: 140px;
+  border-radius: 50%;
+}
+header .navCustom {
+  background-color: rgb(31, 31, 31);
+  color: #c7aa08;
+}
+header .navCustom:hover {
+  color: black;
 }
 
-h5 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-.navCustom {
-    background-color: rgb(31, 31, 31);
-    color: #c7aa08;
-}
-
-.navCustom:hover {
-    color: black;
-}
-
-.textoInfo {
-    color: white;
-    padding: 1rem;
-    margin: 1rem;
-    text-align: center;
-}
-
-.centrarLogo {
-    text-align: center;
-}
-
-.centrarLogo img {
-    width: 140px;
-    border-radius: 50%;
-}
-
-.centrarNosotros {
-    text-align: center;
+main .textoInfo {
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
 }
 
 footer {
-    background-color: rgb(31, 31, 31);
-    background-position: center;
-    background-size: cover;
-    min-height: 30vh;
-    border-top: 1px solid #000;
+  background-color: rgb(31, 31, 31);
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
+  border-top: 1px solid #000;
+}
+footer div h5 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+footer div a .redes {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 25px;
+  background-color: #c7aa08;
+  background-position: center;
+  background-size: contain;
+}
+footer div a .redes-img {
+  width: 50px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+footer div a .redes-img:hover {
+  background-color: rgb(199, 170, 8);
 }
 
-.redes {
-    width: 35px;
-    height: 35px;
-    border: 1px solid rgb(31, 31, 31);
-    border-radius: 25px;
-    background-color: #c7aa08;
-    background-position: center;
-    background-size: contain;
-}
-
-.redes-img {
-    width: 50px;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-}
-
-.redes-img:hover {
-    background-color: rgb(199, 170, 8);
-
-}
-
-.formulario {
-    width: 500px;
-    margin: 20px auto;
-    padding: 1rem;
-    color: white;
-}
-
-.form2 {
-    color: rgb(199, 170, 8);
-}
+/*# sourceMappingURL=estilo.css.map */

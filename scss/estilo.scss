@@ -1,0 +1,89 @@
+@import "contacto";
+@import "nosotros";
+@import "productos";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(199, 170, 8, 1) 100%);
+}
+
+header {
+    color: #c7aa08;
+    background-color: rgb(31, 31, 31);
+
+    .centrarLogo {
+        text-align: center;
+
+        img {
+            width: 140px;
+            border-radius: 50%;
+        }
+    }
+
+    .navCustom {
+        background-color: rgb(31, 31, 31);
+        color: #c7aa08;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+
+main {
+    .textoInfo {
+        color: white;
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: rgb(31, 31, 31);
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    border-top: 1px solid #000;
+
+    div {
+        h5 {
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+    }
+
+    div {
+        a {
+            .redes {
+                width: 35px;
+                height: 35px;
+                border: 1px solid rgb(31, 31, 31);
+                border-radius: 25px;
+                background-color: #c7aa08;
+                background-position: center;
+                background-size: contain;
+            }
+
+            .redes-img {
+                width: 50px;
+                height: auto;
+                background-color: rgb(255, 255, 255);
+
+                &:hover {
+                    background-color: rgb(199, 170, 8);
+                }
+            }
+
+        }
+    }
+}
