@@ -1,0 +1,95 @@
+main .formulario {
+  width: 500px;
+  margin: 20px auto;
+  padding: 1rem;
+  color: white;
+}
+main .formulario form div .form2 {
+  color: #2c2c2c;
+}
+
+main .centrarNosotros {
+  text-align: center;
+  padding: 20px;
+}
+
+main section div h5 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b3961f;
+  background: linear-gradient(to top, #2c2c2c, #b3961f, #2c2c2c);
+}
+
+header {
+  color: white;
+  background-color: #b3961f;
+  background: linear-gradient(to top, #2c2c2c, #b3961f, #2c2c2c);
+}
+header .centrarLogo {
+  text-align: center;
+}
+header .centrarLogo img {
+  width: 200px;
+  border-radius: 50%;
+  padding: 10px;
+}
+header .centrarLogo img:hover {
+  transform: scale(1.1, 1.1);
+}
+header .navCustom {
+  background-color: #2c2c2c;
+  color: white;
+}
+header .navCustom:hover {
+  color: #b3961f;
+}
+
+main .textoInfo {
+  color: #2c2c2c;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #2c2c2c;
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
+  border-top: 1px solid #2c2c2c;
+}
+footer div h5 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+footer div a .redes {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #2c2c2c;
+  border-radius: 25px;
+  background-color: #b3961f;
+  background-position: center;
+  background-size: contain;
+}
+footer div a .redes-img {
+  width: 50px;
+  height: auto;
+  background-color: white;
+}
+footer div a .redes-img:hover {
+  background-color: #b3961f;
+  transform: scale(1.5, 1.5);
+}
+
+/*# sourceMappingURL=estilo.css.map */
